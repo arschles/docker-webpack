@@ -1,7 +1,7 @@
 FROM node:wheezy
 MAINTAINER Justin Firth <jmfirth@gmail.com>
 
-RUN npm install -g webpack webpack-dev-server yarn
+RUN npm install -g webpack
 
 VOLUME /app
 
